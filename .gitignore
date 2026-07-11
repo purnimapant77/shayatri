@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pt
+.venv/
+venv/
+test_output.mp3
+test_annotated.jpg
+.streamlit/
+tts_cache/

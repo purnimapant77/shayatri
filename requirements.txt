@@ -1,0 +1,7 @@
+streamlit
+ultralytics
+gtts
+opencv-python-headless
+numpy
+pillow
+pygame
