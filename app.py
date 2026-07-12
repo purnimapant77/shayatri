@@ -1,5 +1,5 @@
 """
-Khoji Lite — Nepali voice assistant for visually impaired users.
+Sarathi — Nepali voice assistant for visually impaired users.
 Take/upload a photo -> YOLO detects objects -> Nepali sentence is built ->
 sentence is spoken aloud + shown on screen.
 
@@ -20,9 +20,9 @@ import numpy as np
 
 from detector import process_image
 
-st.set_page_config(page_title="Khoji Lite", page_icon="🎙️", layout="centered")
+st.set_page_config(page_title="Sarathi", page_icon="🎙️", layout="centered")
 
-st.title("🎙️ Khoji — दृष्टिविहीनका लागि आवाज सहायक")
+st.title("🎙️ Sarathi — दृष्टिविहीनका लागि आवाज सहायक")
 st.caption("फोटो लिनुहोस् वा अपलोड गर्नुहोस् — अगाडि के छ भनेर नेपालीमा सुन्नुहोस्।")
 
 st.divider()
@@ -109,7 +109,5 @@ with st.expander("ℹ️ यो कसरी काम गर्छ (How it work
        Live Mode caches each spoken sentence to disk so repeated phrases
        (very common when scanning a room) play back instantly.
 
-    No LLM API keys, no Ollama, no fragile dependencies — everything here is a
-    pretrained model + simple rules, so it works reliably during a live demo.
     """)
 
